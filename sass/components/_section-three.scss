@@ -1,0 +1,46 @@
+/*START section THREE*/
+.three{
+   background-color: var(--seventh-color);
+}
+.zespol__list__item{
+   width: 270px;
+   background-color: var(--third-color);
+   text-align: center;
+   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+   ;
+}
+.zespol__list__item h4 {
+   margin-top: 30px;
+   color: var(--four-color);
+}
+.zespol__list__item p{
+   margin-top: 10px;
+   margin-bottom: 16px;
+   color: var(--main-color);
+}
+.zespol__link__list{
+   justify-content: space-evenly;
+   margin-bottom: 30px;
+}
+.social__list__link {
+   width: 44px;
+   height: 44px;
+   background-color: var(--third-color);
+   border-radius: 50%;
+   justify-content: center;
+   transition: all 250ms linear;
+   fill:  var(--social-icon);
+ }
+ .social-icon {
+   width: 20px;
+   height: 20px;
+ }
+ 
+ .social__list__link:hover,
+ .social__list__link:focus {
+   fill:var(--third-color);
+   background-color: var(--secondary-color);
+ }
+/* finish sectiopn three */

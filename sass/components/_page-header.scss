@@ -1,0 +1,44 @@
+.header{
+   padding: 25px 15px;
+}
+
+   /* START Nav */
+.nav{
+   padding-left: 45px;
+   padding-right: 333px;
+}
+.nav__item{
+   margin-left: 46px;
+   font-weight: 500;
+   line-height: 16px;
+   letter-spacing: 0.02em;
+}
+   /* END NAV */
+   /* STARTR Contacts */
+.contacts{
+   display: flex;
+}
+.contacts a{
+   color: var(--main-color);
+   font-weight: 500;
+   line-height: 16px;
+   letter-spacing: 0.02em;
+}
+.contacts__tel{
+   margin-left: 30px;
+}
+.contacts__icon{
+   margin-right: 10px;
+}
+   /* End Contacts */
+   /* PODKRESLENIE */
+.current a:after{
+   position: relative;
+   top: 2.25em;
+   display: block;
+   content: "";
+   width: 100%;
+   height: 4px;
+   border-radius: 2px;
+   background-color: var(--secondary-color);
+}

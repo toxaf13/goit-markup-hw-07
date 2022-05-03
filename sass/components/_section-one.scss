@@ -1,0 +1,26 @@
+/*START section one*/
+.one{
+   background-color:var(--footer-bg_color);
+   background-image:linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+    url(../images/Img_one.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 200px 0px;
+}
+.one__main{
+   justify-content: center;
+   flex-direction: column;   
+   padding-left: 200px;
+   padding-right: 200px;
+   font-size: 34px;
+   font-weight: 900;
+   line-height: 60px;
+   letter-spacing: 0.06em;
+   text-align: center;
+   color: var(--third-color);
+}
+.one__main--text{
+   margin-bottom: 28px;
+}
